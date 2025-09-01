@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>form to apply for web develpment</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your user name</label>
+            <br>
+            <input type="username" id="username" name="username" placeholder="Enter your username" autofocus>
+        </div>
+
+        <div>
+            <label for="password">Enter your user password</label>
+            <br>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+
+        <div>
+            <label for="email">Enter your user email</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+        </div>
+
+        <div>
+            <label for="course">Select your course</label>
+            <br>
+            <select name="name" id="course">
+                <option value="ICS">ICS</option>
+                <option value="FSC">FSC</option>
+                <option value="FA">FA</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="checkbox" name="sub" id="math" value="math">
+            <label for="math">math</label>
+            <input type="checkbox" name="sub" id="comp" value="comp">
+            <label for="comp">comp</label>
+            <input type="checkbox" name="sub" id="phy" value="phy">
+            <label for="phy">phy</label>
+        </div>
+
+        <div>
+            <label for="feedback">Enter your feedback</label>
+            <br>
+            <textarea name="feedback" id="feedback" cols="20" rows="5" spellcheck="true" ></textarea>
+        </div>
+
+        <label for="submit"></label>
+        <input type="submit" value="submit" id="submit">
+
+    </form>
+</body>
+</html>
