@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    background-color: red;
+}
+div{
+    background-color: bisque;
+}
+a{
+    background-color: aliceblue;
+}
+span{
+    background-color: aqua;
+}
